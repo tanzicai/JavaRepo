@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/aop
+ http://www.springframework.org/schema/aop/spring-aop.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd
+">
+
+    <context:component-scan base-package="org.books.tanzicai" />
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="logAspect" class="org.books.tanzicai.aspect.LogAspect">
+        <!-- configure properties of aspect here as normal -->
+    </bean>
+    <!-- more bean definitions for data access objects go here -->
+
+    <!-- 目标类 -->
+    <bean id="aopDemoServiceImpl" class="org.books.tanzicai.service.AopDemoServiceImpl">
+    </bean>
+
+    <!--AOP类    -->
+    <bean id="logAspectTestService" class="org.books.tanzicai.aspect.LogAspectTestService">
+
+    </bean>
+
+    <!--AOP配置    -->
+    <aop:config>
+        <aop:aspect ref="logAspectTestService">
+            <!--配置切入点        -->
+            <aop:pointcut id="pointCutMethod" expression="execution(* org.books.tanzicai.service.*.*(..))"/>
+            <!--环绕通知        -->
+            <aop:around method="doaround" pointcut-ref="pointCutMethod"/>
+            <!--前置通知        -->
+            <aop:before method="doBefore" pointcut-ref="pointCutMethod"/>
+            <!-- 后置通知       -->
+            <aop:after-returning method="doAfterReturning" pointcut-ref="pointCutMethod" returning="result"/>
+            <!--异常通知：如果没有异常，将不会执行增强；throwing属性：用于设置通知第二个参数的的名称、类型              -->
+            <aop:after-throwing method="doAfterThrowing" pointcut-ref="pointCutMethod" throwing="e"/>
+            <!--最终通知  -->
+            <aop:after method="doAfter" pointcut-ref="pointCutMethod"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

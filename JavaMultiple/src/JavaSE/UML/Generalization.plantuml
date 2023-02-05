@@ -1,0 +1,12 @@
+@startuml
+title Generalization
+
+class Vehical
+class Car
+class Truck
+
+Vehical <|-- Car
+Vehical <|-- Truck
+
+
+@enduml
