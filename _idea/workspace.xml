@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30bac8cd-bbcc-4415-b9ba-520f22b08738" name="Changes" comment="pull to local init">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/._wrapper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/._MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/._maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/._maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/._migration.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/migration.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/YiliMusicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/config/CrossConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/config/WeChatConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/AlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/ArtistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/PlaylistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/SettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/controller/WeixinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/AlbumCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/AlbumDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/AlbumSearchFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/AlbumUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/ArtistCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/ArtistDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/ArtistSearchFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/ArtistUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/BaseSearchFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/FileDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/FileUploadDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/FileUploadRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/MusicCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/MusicDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/MusicSearchFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/MusicUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/PaymentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/PlaylistCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/PlaylistDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/PlaylistSearchFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/RecommendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/SiteSettingDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/TokenCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/TraceableBaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/UserCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/dto/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/TraceableBaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/enums/FileStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/enums/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/enums/GeneralStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/enums/MusicStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/enums/PlayListStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/enums/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/exception/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/exception/ExceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/exception/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/filter/JwtAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/AlbumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/ArtistMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/FileMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/FileUploadMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/MapperInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/MusicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/PlaylistMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/SiteSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/AlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/ArtistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/FileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/MusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/PlaylistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/specs/AbstractSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/specs/AlbumSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/specs/ArtistSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/specs/MusicSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/specs/PlaylistSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/specs/SearchCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/repository/specs/SearchOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/ArtistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/PlaylistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/SettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/ArtistServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/CosStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/GeneralServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/MusicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/PlaylistServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/SettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/TraceableGeneralServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/utils/FileTypeTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/utils/KsuidIdentifierGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/AlbumVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/ArtistVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/BaseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/FileUploadVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/FileVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/MusicVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/PlaylistVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/RoleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/SiteSettingVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bilitech/yilimusic/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20211220210919__create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20211220210945__create_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20211220221006__create_user_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220117210938__add_init_user_and_role.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220207210956__create_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220215210904__create_file_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220222210947__music_table_add_file_id.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220222231159__create_playlist_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220222231161__create_playlist_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220224210958__file_table_add_traceable_field.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220302210924__create_artist_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220302221021__create_artist_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220328210934__artist_add_recommended_and_recommend_factor_fields.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220328221023__playlist_modify_columns.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220329001202__playlist_add_special_field.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220419140212__create_album_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20220505040433__album_add_recommended_and_recommend_factor_fields.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/YiliMusicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/repository/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/service/ArtistServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/service/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/service/FileServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/service/MusicServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/service/PlaylistServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/service/SettingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/._application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/._application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/._db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/YiliMusicApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/config/CrossConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/config/WeChatConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/AlbumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/ArtistController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/MusicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/PlaylistController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/SettingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/TokenController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/controller/WeixinController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/AlbumCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/AlbumDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/AlbumSearchFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/AlbumUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/ArtistCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/ArtistDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/ArtistSearchFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/ArtistUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/BaseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/BaseSearchFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/FileDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/FileUploadDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/FileUploadRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/MusicCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/MusicDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/MusicSearchFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/MusicUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/PaymentDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/PlaylistCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/PlaylistDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/PlaylistSearchFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/RecommendRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/RoleDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/SiteSettingDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/TokenCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/TraceableBaseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/UserCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/dto/UserUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/Artist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/File.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/Playlist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/TraceableBaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/enums/FileStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/enums/FileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/enums/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/enums/GeneralStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/enums/MusicStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/enums/PlayListStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/enums/Storage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/exception/BizException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/exception/ErrorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/exception/ExceptionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/exception/RestAuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/filter/JwtAuthorizationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/AlbumMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/AlbumMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/ArtistMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/ArtistMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/FileMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/FileMapperDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/FileMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/FileMapperImpl_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/FileUploadMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/FileUploadMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/MapperInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/MusicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/MusicMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/PlaylistMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/PlaylistMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/SiteSettingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/SiteSettingMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/mapper/UserMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/AlbumRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/ArtistRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/FileRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/MusicRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/PlaylistRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/specs/AbstractSpecification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/specs/AlbumSpecification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/specs/ArtistSpecification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/specs/MusicSpecification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/specs/PlaylistSpecification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/specs/SearchCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/repository/specs/SearchOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/AlbumService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/ArtistService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/GeneralService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/MusicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/PlaylistService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/SettingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/StorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/ArtistServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/CosStorageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/FileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/GeneralServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/MusicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/PlaylistServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/SettingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/TraceableGeneralServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/utils/FileTypeTransformer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/utils/KsuidIdentifierGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/AlbumVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/ArtistVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/BaseVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/FileUploadVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/FileVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/MusicVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/PlaylistVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/RoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/SiteSettingVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bilitech/yilimusic/vo/UserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/._migration" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20211220210919__create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20211220210945__create_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20211220221006__create_user_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220117210938__add_init_user_and_role.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220207210956__create_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220215210904__create_file_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220222210947__music_table_add_file_id.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220222231159__create_playlist_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220222231161__create_playlist_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220224210958__file_table_add_traceable_field.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220302210924__create_artist_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220302221021__create_artist_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220328210934__artist_add_recommended_and_recommend_factor_fields.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220328221023__playlist_modify_columns.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220329001202__playlist_add_special_field.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220419140212__create_album_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/._V20220505040433__album_add_recommended_and_recommend_factor_fields.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20211220210919__create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20211220210945__create_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20211220221006__create_user_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220117210938__add_init_user_and_role.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220207210956__create_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220215210904__create_file_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220222210947__music_table_add_file_id.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220222231159__create_playlist_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220222231161__create_playlist_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220224210958__file_table_add_traceable_field.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220302210924__create_artist_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220302221021__create_artist_music_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220328210934__artist_add_recommended_and_recommend_factor_fields.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220328221023__playlist_modify_columns.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220329001202__playlist_add_special_field.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220419140212__create_album_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V20220505040433__album_add_recommended_and_recommend_factor_fields.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/AlbumMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/ArtistMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/FileMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/FileMapperImpl_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/FileUploadMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/MusicMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/PlaylistMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/SiteSettingMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/bilitech/yilimusic/mapper/UserMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/YiliMusicApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/repository/UserRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/service/ArtistServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/service/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/service/FileServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/service/MusicServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/service/PlaylistServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/service/SettingServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/bilitech/yilimusic/service/UserServiceTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29Kf9Ziwbw6yIaBsHdM6nQ73x5J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Documents/yili-music-main&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;77b4998195280aef871a7a208cf5c1a1&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YiliMusicApplication (1)">
+    <configuration name="UserRepositoryTest.findByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yili-music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bilitech.yilimusic.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bilitech.yilimusic.repository" />
+      <option name="MAIN_CLASS_NAME" value="UserRepositoryTest" />
+      <option name="METHOD_NAME" value="findByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YiliMusicApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="yili-music-main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tanzicai.caimusic.YiliMusicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YiliMusicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yili-music" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tanzicai.caimusic.YiliMusicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.YiliMusicApplication (1)" />
+        <item itemvalue="JUnit.UserRepositoryTest.findByUsername" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30bac8cd-bbcc-4415-b9ba-520f22b08738" name="Changes" comment="" />
+      <created>1652866547612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652866547612</updated>
+      <workItem from="1652866549697" duration="525000" />
+      <workItem from="1652869436618" duration="295000" />
+      <workItem from="1653832033154" duration="2223000" />
+      <workItem from="1653869137562" duration="801000" />
+      <workItem from="1654512908926" duration="303000" />
+      <workItem from="1654841280800" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pull to local init" />
+    <option name="LAST_COMMIT_MESSAGE" value="pull to local init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bilitech/yilimusic/repository/UserRepositoryTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
