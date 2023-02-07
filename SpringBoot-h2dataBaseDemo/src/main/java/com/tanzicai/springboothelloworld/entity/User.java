@@ -1,53 +1,35 @@
 package com.tanzicai.springboothelloworld.entity;
 
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  * @author tanzicai
  */
 
-
+@Entity
+@Table(name = "tb_user")
 public class User {
-    /**
-     * user's name
-     */
-    private String name;
-    /**
-     * user's age
-     */
-    private int age;
 
-    /**
-     * init
-     * @param name user's name
-     * @param age user's age
-     */
-    public User(String name, int age) {
-        this.name = name;
-        this.age = age;
+    @Id
+    private int userId;
+    private String userName;
+
+    public int getUserId() {
+        return userId;
     }
 
-
-    public String getName() {
-        return name;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getUserName() {
+        return userName;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 }
